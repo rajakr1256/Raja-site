@@ -3,19 +3,26 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from "../components/Button.astro";
 import Card from "../components/Card.astro";
+import Imagecard from "../components/Imagecard.astro";
+const name="Raja";
 ---
 
 <MainLayout title="Welcome to My Website">
-	<h1>My First Website</h1>
+	<h1>My Work</h1>
 	<p>A simple website built with Astro</p>
 
 	<!-- Example of using a component with props -->
-	<Button text="Learn More" />
+	<Button text="Click here" />
 
 	<h2>Features</h2>
+	<Imagecard link="https://www.creativefabrica.com/wp-content/uploads/2023/05/11/Modern-colourful-abstract-background-Graphics-69439498-1.jpg">
+
+
 
 	<!-- Example of using another component with props -->
 	<Card title="Simple Design" content="Clean and minimal design that's easy to understand." />
 	<Card title="Easy to Edit" content="Change text, colors, and layout with simple code." />
 	<Card title="Learn by Doing" content="Every file has helpful comments to guide you." />
+	<Button text="Go to menu" />
+
 </Layout>
