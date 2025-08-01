@@ -2,11 +2,14 @@
 
 const {link, caption, heights}= Astro.props
 ---
-  <img height={heights} src={link}>
+<div id="outline">
+<img height={heights} src={link}>
 		<p>{caption}</p>
+</div>
+
 
     <style>
-    .container{
+    .outline{
       padding-left: 20px;
       background-color: aqua;
       display: flex;
